@@ -5,7 +5,7 @@ import dev.aquademon.interfaces.BaseCommand;
 
 public class SampleCommand extends BaseCommand {
     public SampleCommand() {
-        super("ping", "Check the bot's latency");
+        super("helloworld", "Hello, world.");
     }
 
     @Override
