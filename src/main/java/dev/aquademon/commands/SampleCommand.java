@@ -3,8 +3,8 @@ package dev.aquademon.commands;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import dev.aquademon.interfaces.BaseCommand;
 
-public class PingCommand extends BaseCommand {
-    public PingCommand() {
+public class SampleCommand extends BaseCommand {
+    public SampleCommand() {
         super("ping", "Check the bot's latency");
     }
 
