@@ -55,7 +55,7 @@ public class CommandManager {
                         CommandData commandData = Commands.slash(
                                 command.getName(),
                                 command.getDescription()
-                        );
+                        ).addOptions(command.getOptions());
                         commandDataList.add(commandData);
 
                         System.out.println("Successfully loaded command: " + command.getName());
